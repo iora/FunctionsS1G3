@@ -29,6 +29,7 @@ int main(void) {
 
 void printGroupMemberNames() {
 	printf("James Bond\n Brad Pitt/n");
+	// Test init
 
 }
 
