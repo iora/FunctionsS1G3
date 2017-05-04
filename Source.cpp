@@ -49,6 +49,13 @@ double getAverage(int myArray[]) {
 	return (sum / 500);
 }
 
+float invertAllValues(int myArray[]) {
+    // done by Romanea Nin
+    for (int i = 499; i>=0; i--) {
+        printf("%i\n", myArray[i]);
+    }
+}
+
 void printGroupMemberNames() {
 	printf("Emsamboramy Vong\nLeng Saing\nPiseth Chhom\nRomanea Nin\nSovuthea Yi\n");
 }
