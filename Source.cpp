@@ -23,6 +23,21 @@ int main(void) {
 
 	return 1;
 }
+int getSum(int myArray[]) {
+    // done by Piseth Chhom
+    int getsum, s;
+    for (s = 0; s < 500; s++){
+        getsum += myArray[s];
+    }
+    return getsum;
+}
+
+void printAsChars(int myArray[]) {
+    // done by Piseth Chhom
+    for (int c = 0; c < 500; c++){
+    printf("%c\n", myArray[c]);
+    }
+}
 
 double getAverage(int myArray[]) {
 	// done by Leng Saing
@@ -34,11 +49,7 @@ double getAverage(int myArray[]) {
 	return (sum / 500);
 }
 
-
-
 void printGroupMemberNames() {
 	printf("Emsamboramy Vong\nLeng Saing\nPiseth Chhom\nRomanea Nin\nSovuthea Yi\n");
-	// Test init
-
 }
 
