@@ -24,11 +24,20 @@ int main(void) {
 	return 1;
 }
 
+double getAverage(int myArray[]) {
+	// done by Leng Saing
+	double sum = 0;
+	int index;
+	for (index = 0; index < 500; index++) {
+		sum += myArray[index];
+	}
+	return (sum / 500);
+}
 
 
 
 void printGroupMemberNames() {
-	printf("James Bond\n Brad Pitt/n");
+	printf("Emsamboramy Vong\nLeng Saing\nPiseth Chhom\nRomanea Nin\nSovuthea Yi\n");
 	// Test init
 
 }
