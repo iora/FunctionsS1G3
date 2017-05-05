@@ -21,11 +21,13 @@ int main(void) {
 	for (int i = 0; i < 500; i++)
 		row[i] = i;
 
+
 	return 1;
 }
 int getSum(int myArray[]) {
     // done by Piseth Chhom
-    int getsum, s;
+    int getsum=0;
+    int s;
     for (s = 0; s < 500; s++){
         getsum += myArray[s];
     }
@@ -37,6 +39,16 @@ void printAsChars(int myArray[]) {
     for (int c = 0; c < 500; c++){
     printf("%c\n", myArray[c]);
     }
+}
+
+int subtractAllValues(int myArray[]) {
+	// done by Sovuthea Yi
+    int i;
+	for (i = 0; i < 500; i++)
+	{
+		myArray[i] -= 1;     // subtract all values in array by 1
+	}
+    return myArray[500];
 }
 
 double getAverage(int myArray[]) {
