@@ -23,9 +23,6 @@ int main(void) {
 
 
     subtractAllValues(row);  // function call
-    for (int i = 0; i < 500; i++)   // iterating through array and printing values
-        printf("%i  ", row[i]);
-    printf("\n");
 
 
     return 1;
@@ -62,11 +59,12 @@ void printAsChars(int myArray[]) {
 int subtractAllValues(int myArray[]) {
 	// done by Sovuthea Yi
     int i;
-	for (i = 0; i < 500; i++)
-	{
-		myArray[i] -= 1;     // subtract all values in array by 1
-	}
-    return myArray[500];
+	for (i = 0; i < 500; i++) {
+        myArray[i] -= 1;     // subtract all values in array by 1
+        printf("%i  ", myArray[i]); // printing values after iterating through array
+    }
+    printf("\n");
+    return 0;
 }
 
 double getAverage(int myArray[]) {
