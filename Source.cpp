@@ -22,7 +22,13 @@ int main(void) {
 		row[i] = i;
 
 
-	return 1;
+    subtractAllValues(row);  // function call
+    for (int i = 0; i < 500; i++)   // iterating through array and printing values
+        printf("%i  ", row[i]);
+    printf("\n");
+
+
+    return 1;
 }
 int getSum(int myArray[]) {
     // done by Piseth Chhom
