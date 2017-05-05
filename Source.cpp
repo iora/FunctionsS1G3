@@ -34,6 +34,18 @@ int getSum(int myArray[]) {
     return getsum;
 }
 
+int getSumofSquares(int myArray[])
+{
+	// done by Emsamboramy Vong
+
+	int sum = 0, i;
+	for (i = 0; i < 500; i++)
+	{
+		sum += (myArray[i] ^ 2);
+	}
+	return sum;
+}
+
 void printAsChars(int myArray[]) {
     // done by Piseth Chhom
     for (int c = 0; c < 500; c++){
